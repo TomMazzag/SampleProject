@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D336C893284A63200006B381 /* ChangeColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336C892284A63200006B381 /* ChangeColour.swift */; };
 		D3AB10DA281D55CC00B8DD38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB10D9281D55CC00B8DD38 /* AppDelegate.swift */; };
 		D3AB10DC281D55CC00B8DD38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB10DB281D55CC00B8DD38 /* SceneDelegate.swift */; };
 		D3AB10DE281D55CC00B8DD38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB10DD281D55CC00B8DD38 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D336C892284A63200006B381 /* ChangeColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColour.swift; sourceTree = "<group>"; };
 		D3AB10D6281D55CC00B8DD38 /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AB10D9281D55CC00B8DD38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3AB10DB281D55CC00B8DD38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +104,10 @@
 				D3AB10D9281D55CC00B8DD38 /* AppDelegate.swift */,
 				D3AB10DB281D55CC00B8DD38 /* SceneDelegate.swift */,
 				D3AB10DD281D55CC00B8DD38 /* ViewController.swift */,
+				D336C892284A63200006B381 /* ChangeColour.swift */,
 				D3AB10DF281D55CC00B8DD38 /* Main.storyboard */,
-				D3AB10E2281D55CF00B8DD38 /* Assets.xcassets */,
 				D3AB10E4281D55CF00B8DD38 /* LaunchScreen.storyboard */,
+				D3AB10E2281D55CF00B8DD38 /* Assets.xcassets */,
 				D3AB10E7281D55CF00B8DD38 /* Info.plist */,
 			);
 			path = SampleProject;
@@ -261,6 +264,7 @@
 				D3AB10DE281D55CC00B8DD38 /* ViewController.swift in Sources */,
 				D3AB10DA281D55CC00B8DD38 /* AppDelegate.swift in Sources */,
 				D3AB10DC281D55CC00B8DD38 /* SceneDelegate.swift in Sources */,
+				D336C893284A63200006B381 /* ChangeColour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RP9Z87U998;
@@ -443,18 +448,20 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Mazzag.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RP9Z87U998;
@@ -471,18 +479,20 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Mazzag.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
