@@ -32,21 +32,12 @@ class ChangeColour: UIViewController {
     
 
     @IBOutlet weak var Preview: UILabel!
-    //Preview.layer.masksToBounds = true
-    //Preview.layer.cornerRadius = 5
-    
     @IBOutlet weak var OptionBgBtt: UISegmentedControl!
-    
     @IBAction func OptionBgBtt(_ sender: Any) {
-//        if sender.selectedSegment == 0 {
-  //
-    //    }
     }
         
     
-    
-    
-    
+
     @IBAction func Change(_ sender: UIButton) {
         if OptionBgBtt.selectedSegmentIndex == 0 {
             self.view.backgroundColor = UIColor(red: CGFloat((rVal.value))/255, green: CGFloat((gVal.value))/255, blue: CGFloat((bVal.value))/255, alpha: 1)
@@ -54,10 +45,9 @@ class ChangeColour: UIViewController {
         else {
             bButton.tintColor = UIColor(red: CGFloat((rVal.value))/255, green: CGFloat((gVal.value))/255, blue: CGFloat((bVal.value))/255, alpha: 1)
         }
-        
-        //self.view.backgroundColor = UIColor(red: CGFloat((rVal.value))/255, green: CGFloat((gVal.value))/255, blue: CGFloat((bVal.value))/255, alpha: 1)
-        
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,12 +57,9 @@ class ChangeColour: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
     
-
-
 }
