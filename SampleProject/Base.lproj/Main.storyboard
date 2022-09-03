@@ -185,6 +185,7 @@
                         <outlet property="Preview" destination="LKR-JS-Gs0" id="kNm-p9-3vh"/>
                         <outlet property="bButton" destination="mjc-RM-9La" id="Oic-qR-kdX"/>
                         <outlet property="bVal" destination="BDF-cc-H6V" id="XhC-IP-5nT"/>
+                        <outlet property="cColBut" destination="8QF-8v-Zeg" id="5T1-my-Nuv"/>
                         <outlet property="gVal" destination="HnE-Q4-2UU" id="cT1-xF-mKT"/>
                         <outlet property="rVal" destination="p24-M2-zY6" id="Pno-05-Spw"/>
                     </connections>

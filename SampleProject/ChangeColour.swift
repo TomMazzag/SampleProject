@@ -14,6 +14,7 @@ class ChangeColour: UIViewController {
     @IBOutlet weak var gVal: UISlider!
     @IBOutlet weak var bVal: UISlider!
     @IBOutlet weak var bButton: UIButton!
+    @IBOutlet weak var cColBut: UIButton!
     
     
     
@@ -44,6 +45,7 @@ class ChangeColour: UIViewController {
         }
         else {
             bButton.tintColor = UIColor(red: CGFloat((rVal.value))/255, green: CGFloat((gVal.value))/255, blue: CGFloat((bVal.value))/255, alpha: 1)
+            cColBut.tintColor = UIColor(red: CGFloat((rVal.value))/255, green: CGFloat((gVal.value))/255, blue: CGFloat((bVal.value))/255, alpha: 1)
         }
     }
     
