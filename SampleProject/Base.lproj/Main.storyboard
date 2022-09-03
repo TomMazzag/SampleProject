@@ -101,6 +101,9 @@
                                     <segment title="Background"/>
                                     <segment title="Buttons"/>
                                 </segments>
+                                <connections>
+                                    <action selector="OptionBgBtt:" destination="5Yv-ev-Hxk" eventType="valueChanged" id="gdr-fK-gLW"/>
+                                </connections>
                             </segmentedControl>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="127.5" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="p24-M2-zY6">
                                 <rect key="frame" x="111.5" y="366" width="191" height="31"/>
@@ -178,7 +181,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="ZSt-ee-rYV"/>
                     <connections>
+                        <outlet property="OptionBgBtt" destination="RRI-qf-XGv" id="ird-hl-G4M"/>
                         <outlet property="Preview" destination="LKR-JS-Gs0" id="kNm-p9-3vh"/>
+                        <outlet property="bButton" destination="mjc-RM-9La" id="Oic-qR-kdX"/>
                         <outlet property="bVal" destination="BDF-cc-H6V" id="XhC-IP-5nT"/>
                         <outlet property="gVal" destination="HnE-Q4-2UU" id="cT1-xF-mKT"/>
                         <outlet property="rVal" destination="p24-M2-zY6" id="Pno-05-Spw"/>
